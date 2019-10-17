@@ -5,7 +5,7 @@ html {
 body {
   min-width: 320px;
   max-width: 750px;
-  margin: 0 auto;
+  margin: 0 auto !important;
   font-size: $font-size;
 }
 
