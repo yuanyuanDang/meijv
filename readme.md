@@ -37,5 +37,3 @@ npm run lint
 * [vue-router](https://router.vuejs.org/zh/)
 * [vuex](https://vuex.vuejs.org/zh/)
    
-
-
