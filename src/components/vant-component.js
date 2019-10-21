@@ -10,7 +10,8 @@ import {
   Row,
   Col,
   Tab,
-  Tabs
+  Tabs,
+  Switch
 } from "vant";
 
 // 导入样式
@@ -26,3 +27,4 @@ Vue.component("van-row", Row);
 Vue.component("van-col", Col);
 Vue.component("van-tab", Tab);
 Vue.component("van-tabs", Tabs);
+Vue.component("van-switch", Switch);
