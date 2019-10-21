@@ -1,0 +1,101 @@
+header{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background:-webkit-linear-gradient(left,rgb(185,182,229),rgb(99,144,232));
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1rem;
+  padding-top: 0.27rem;
+  padding-left: 0.25rem;
+
+  .store-input {
+    width: 4.74rem;
+    height: 0.52rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.2rem;
+
+    .cast-about {
+      width: 0.3rem;
+      height: 0.3rem;
+      float: left;
+      margin: 0.12rem 0.24rem;
+    }
+    span {
+      float: right;
+      width: 3.8rem;
+      line-height: 0.52rem;
+      text-align: center;
+      color: #999999;
+      font-size: 0.2rem;
+      position: relative;
+    }
+    span:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 0.3rem;
+      background:rgba(153,153,153,1);
+      top: 0.12rem;
+      left: 0;
+    }
+  }
+  .shopping-cart {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.06rem;
+  }
+}
+.van-swipe {
+  margin-top: 1.27rem;
+  height: 3.19rem;
+  //width: 100%;
+}
+.van-col {
+  .product-classification {
+    width: 2.1rem;
+    height: 2.1rem;
+    position: relative;
+    //background: #f00;
+    .text-desc {
+      position: absolute;
+      //background: #f00;
+      width: 1.5rem;
+      height: 1.5rem;
+      left: 0.3rem;
+      top: 0.3rem;
+      right: 0.3rem;
+      //line-height: 1;
+      p {
+        width: 100%;
+        text-align: center;
+        height:0.5rem;
+        font-size:0.28rem;
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        margin: 0.1rem auto;
+      }
+      span {
+        width: 100%;
+        text-align: center;
+        height:0.35rem;
+        font-size:0.2rem;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        display: block;
+      }
+    }
+  }
+}
+.van-tabs {
+  padding: 0.3rem 0;
+  .Water-fall {
+    padding: 0.3rem;
+  }
+}
+

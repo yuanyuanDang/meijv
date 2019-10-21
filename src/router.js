@@ -20,6 +20,16 @@ export default new Router({
       path: "/store",
       name: "store",
       component: () => import("./views/Store")
+    },
+    {
+      path: "/user",
+      name: "user",
+      component: () => import("./views/User")
+    },
+    {
+      path: "/mine",
+      name: "mine",
+      component: () => import("./views/Mine")
     }
   ]
 });
