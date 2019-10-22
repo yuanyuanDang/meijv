@@ -3,13 +3,13 @@
   .header{
     position: relative;
     width: 100%;
-    height: .8rem;
+    height: 1.28rem;
     .background{
       position: absolute;
       left: 0;
       top: 0;
       width: 100%;
-      height: .8rem;
+      height: 1.28rem;
     }
     .header-left{
       float: left;
@@ -18,7 +18,7 @@
       font-size: .34rem;
       color: #ffffff;
       z-index: 2;
-      margin-top: .2rem;
+      margin-top: .68rem;
       span{
         font-size: .34rem;
       }
@@ -32,7 +32,7 @@
       margin-right: .3rem;
       display: flex;
       position: relative;
-      margin-top: .2rem;
+      margin-top: .68rem;
       img:nth-child(1){
         width: .34rem;
         height: .4rem;

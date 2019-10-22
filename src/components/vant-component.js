@@ -11,7 +11,10 @@ import {
   Col,
   Tab,
   Tabs,
-  Switch
+  Switch,
+  Checkbox,
+  CheckboxGroup,
+  Stepper
 } from "vant";
 
 // 导入样式
@@ -28,3 +31,6 @@ Vue.component("van-col", Col);
 Vue.component("van-tab", Tab);
 Vue.component("van-tabs", Tabs);
 Vue.component("van-switch", Switch);
+Vue.component("van-checkbox", Checkbox);
+Vue.component("van-checkbox-group", CheckboxGroup);
+Vue.component("van-stepper", Stepper);
