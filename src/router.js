@@ -35,6 +35,11 @@ export default new Router({
       path: "/shopping-trolley",
       name: "shopping-trolley",
       component: () => import("./views/Shopping-trolley")
+    },
+    {
+      path: "/serve",
+      name: "serve",
+      component: () => import("./views/Serve")
     }
   ]
 });

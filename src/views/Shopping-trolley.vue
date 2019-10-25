@@ -106,7 +106,11 @@ export default {
   }
 };
 </script>
-
+<style>
+body {
+  background-color: #eeeeee;
+}
+</style>
 <style lang="scss" scoped>
 @import "../assets/stylesheets/views/shopping-trolley.scss";
 </style>
