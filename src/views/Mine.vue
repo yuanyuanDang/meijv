@@ -12,11 +12,16 @@
       <div class="pro-vip-center">PRO会员中心</div>
     </div>
     <div class="my-box">
-      <div class="my-details" v-for="(detail, index) in details" :key="index">
+      <a
+        href="/personal-center"
+        class="my-details"
+        v-for="(detail, index) in details"
+        :key="index"
+      >
         <img :src="detail.way" class="detail-pic" />
         <span>{{ detail.text }}</span>
         <img src="../assets/images/mine/right-333.svg" class="right-333" />
-      </div>
+      </a>
     </div>
   </div>
 </template>

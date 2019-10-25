@@ -22,6 +22,11 @@ export default new Router({
       component: () => import("./views/Store")
     },
     {
+      path: "/personal-center",
+      name: "personal-center",
+      component: () => import("./views/Personal-center")
+    },
+    {
       path: "/user",
       name: "user",
       component: () => import("./views/User")

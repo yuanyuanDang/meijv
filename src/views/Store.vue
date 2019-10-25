@@ -8,10 +8,12 @@
         />
         <span>输入你想搜索的内容</span>
       </a>
-      <img
-        src="../../src/assets/images/shopping/gouwuche@2x.png"
-        class="shopping-cart"
-      />
+      <a href="/shopping-trolley">
+        <img
+          src="../../src/assets/images/shopping/gouwuche@2x.png"
+          class="shopping-cart"
+        />
+      </a>
       <img
         src="../../src/assets/images/shopping/kefu@2x.png"
         class="shopping-cart"
