@@ -50,6 +50,7 @@
         />
       </div>
     </div>
+    <Tabbar></Tabbar>
   </div>
 </template>
 
@@ -57,9 +58,13 @@
 import { mapState } from "vuex";
 import equipment_img2 from "../assets/images/home/kaiguan1@2x.png";
 import equipment_img1 from "../assets/images/home/kaiguan@2x.png";
+import Tabbar from "../components/Tabbar.vue";
 
 export default {
   name: "Home",
+  components: {
+    Tabbar
+  },
   computed: {
     ...mapState(["title"]),
     ...mapState("homeModule", ["home_title"])

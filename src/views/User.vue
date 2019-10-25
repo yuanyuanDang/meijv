@@ -2,12 +2,14 @@
   <div class="user-container">
     <header>
       <div class="store-input">
-        <img src="../../src/assets/images/shopping/back.png" class="back" />
+        <input type="text" placeholder="输入你想搜索的内容" />
+        <a href="/store">
+          <img src="../../src/assets/images/shopping/back.png" class="back" />
+        </a>
         <img
           src="../../src/assets/images/search/sousuo@2x.png"
           class="cast-about"
         />
-        <span>输入你想搜索的内容</span>
       </div>
     </header>
     <div class="box"></div>
@@ -44,8 +46,6 @@
         <a href="javascript:void (0)">布谷洗碗机</a>
       </div>
     </div>
-
-    <!--<img src="../../src/assets/images/search/keyboard.png" class="keyboard" />-->
   </div>
 </template>
 

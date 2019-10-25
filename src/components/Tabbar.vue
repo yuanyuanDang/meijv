@@ -1,6 +1,11 @@
 <template>
-  <van-tabbar v-model="active" class="tab-bar" style="z-index: 100">
-    <van-tabbar-item url="/home">
+  <van-tabbar
+    v-model="active"
+    class="tab-bar"
+    style="z-index: 100"
+    route="route"
+  >
+    <van-tabbar-item to="/">
       <span>首页</span>
       <img
         slot="icon"
@@ -8,24 +13,24 @@
         :src="props.active ? icon1.active : icon1.normal"
       />
     </van-tabbar-item>
-    <van-tabbar-item url="/store">
-      <span>首页</span>
+    <van-tabbar-item to="/store">
+      <span>商城</span>
       <img
         slot="icon"
         slot-scope="props"
         :src="props.active ? icon2.active : icon2.normal"
     /></van-tabbar-item>
 
-    <van-tabbar-item url="/user">
-      <span>首页</span>
+    <van-tabbar-item to="/serve">
+      <span>服务</span>
       <img
         slot="icon"
         slot-scope="props"
         :src="props.active ? icon3.active : icon3.normal"
     /></van-tabbar-item>
 
-    <van-tabbar-item url="/mine">
-      <span>首页</span>
+    <van-tabbar-item to="/mine">
+      <span>我的</span>
       <img
         slot="icon"
         slot-scope="props"
@@ -44,7 +49,7 @@ import wode2 from "../assets/images/label/wode@2x.png";
 import wode1 from "../assets/images/label/wude@2x.png";
 
 export default {
-  name: "tabaer",
+  name: "tabbar",
   data() {
     return {
       active: 0,

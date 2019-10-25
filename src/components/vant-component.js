@@ -12,6 +12,9 @@ import {
   Tab,
   Tabs,
   Switch,
+  Checkbox,
+  CheckboxGroup,
+  Stepper,
   Tabbar,
   TabbarItem
 } from "vant";
@@ -30,5 +33,8 @@ Vue.component("van-col", Col);
 Vue.component("van-tab", Tab);
 Vue.component("van-tabs", Tabs);
 Vue.component("van-switch", Switch);
+Vue.component("van-checkbox", Checkbox);
+Vue.component("van-checkbox-group", CheckboxGroup);
+Vue.component("van-stepper", Stepper);
 Vue.component("van-tabbar", Tabbar);
 Vue.component("van-tabbar-item", TabbarItem);

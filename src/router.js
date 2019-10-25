@@ -22,6 +22,11 @@ export default new Router({
       component: () => import("./views/Store")
     },
     {
+      path: "/personal-center",
+      name: "personal-center",
+      component: () => import("./views/Personal-center")
+    },
+    {
       path: "/user",
       name: "user",
       component: () => import("./views/User")
@@ -30,6 +35,16 @@ export default new Router({
       path: "/mine",
       name: "mine",
       component: () => import("./views/Mine")
+    },
+    {
+      path: "/shopping-trolley",
+      name: "shopping-trolley",
+      component: () => import("./views/Shopping-trolley")
+    },
+    {
+      path: "/serve",
+      name: "serve",
+      component: () => import("./views/Serve")
     }
   ]
 });
