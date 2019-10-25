@@ -32,9 +32,17 @@
           </div>
         </div>
       </van-checkbox-group>
-      <van-checkbox class="all-checked" v-model="checked" @click="checkAll"
-        >全选</van-checkbox
-      >
+    </div>
+    <van-checkbox class="all-checked" v-model="checked" @click="checkAll"
+      >全选</van-checkbox
+    >
+    <div class="account">
+      <p>
+        合计：<span>￥{{ account }}</span>
+      </p>
+      <p>
+        <span>去付款</span> <img src="../assets/images/home/juxing2@2x.png" />
+      </p>
     </div>
   </div>
 </template>
@@ -74,7 +82,8 @@ export default {
           value: 1
         }
       ],
-      checked_all: []
+      checked_all: [],
+      account: 0
     };
   },
   methods: {
@@ -87,7 +96,6 @@ export default {
     },
     onChange(res) {
       this.text = res;
-      console.log(this.text);
       this.checked_all = res.length;
       if (res.length === 3) {
         this.checked = true;
