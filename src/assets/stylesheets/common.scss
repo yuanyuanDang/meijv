@@ -3,16 +3,29 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: $black-bg;
-  color: #fff;
+  background: #ffffff;
+  height: .97rem;
+  box-shadow:0px 4px 8px 0px rgba(38,27,25,0.08);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: .8rem;
+
+  a {
+    color: #999999;
+    font-size: .2rem;
+  }
+
+  .tab-icon1{
+    width: .37rem;
+    height: .41rem;
+  }
+
 
   a.active {
     color: aqua;
   }
+
+
 }
 
 

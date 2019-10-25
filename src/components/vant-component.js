@@ -11,7 +11,9 @@ import {
   Col,
   Tab,
   Tabs,
-  Switch
+  Switch,
+  Tabbar,
+  TabbarItem
 } from "vant";
 
 // 导入样式
@@ -28,3 +30,5 @@ Vue.component("van-col", Col);
 Vue.component("van-tab", Tab);
 Vue.component("van-tabs", Tabs);
 Vue.component("van-switch", Switch);
+Vue.component("van-tabbar", Tabbar);
+Vue.component("van-tabbar-item", TabbarItem);

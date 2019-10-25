@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <img src="../../src/assets/images/search/keyboard.png" class="keyboard" />
+    <!--<img src="../../src/assets/images/search/keyboard.png" class="keyboard" />-->
   </div>
 </template>
 
